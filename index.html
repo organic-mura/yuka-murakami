@@ -234,7 +234,9 @@
   .access .info{border-top:1px solid var(--line);padding-top:24px}
   .access .salon{font-family:var(--serif);font-size:clamp(19px,2.3vw,23px);letter-spacing:.06em;color:var(--charcoal)}
   .access address{font-style:normal;margin-top:12px;line-height:2}
-  .access .btn{margin-top:22px}
+  .access .map{margin-top:20px;border:1px solid var(--line);background:var(--paper);line-height:0}
+  .access .map iframe{display:block;width:100%;height:260px}
+  .access .btn{margin-top:16px}
   @media (min-width:861px){.access .info{border-top:0;padding-top:52px}}
   @media (max-width:860px){.access .wrap{grid-template-columns:1fr}}
 
@@ -557,9 +559,12 @@
       <span class="en">Access</span>
       <p class="salon" style="margin-top:10px">Gotoday SHAiRE Salon 町田</p>
       <address>〒194-0013<br>東京都町田市原町田6丁目21-32<br>Machida ex 5F</address>
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%94%BA%E7%94%B0%E5%B8%82%E5%8E%9F%E7%94%BA%E7%94%B06%E4%B8%81%E7%9B%AE21-32%20Machida%20ex&output=embed" width="100%" height="260" style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Gotoday SHAiRE Salon 町田の地図"></iframe>
+      </div>
       <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%94%BA%E7%94%B0%E5%B8%82%E5%8E%9F%E7%94%BA%E7%94%B06%E4%B8%81%E7%9B%AE21-32%20Machida%20ex" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
-        Googleマップで見る
+        Googleマップでルートを見る
       </a>
     </div>
   </div>
