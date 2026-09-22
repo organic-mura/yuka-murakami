@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>村上 優香｜町田のフリーランス美容師・ヘナ・ヘッドスパ</title>
-<meta name="description" content="東京都町田市 Gotoday SHAiRE Salon 町田で活動するフリーランス美容師、村上 優香の予約・相談ページ。頭皮と髪にやさしいオーガニックヘナやヘッドスパで、今も、その先も好きでいられる髪を。ご相談は公式LINEから。">
+<meta name="description" content="東京都町田市 Gotoday SHAiRE Salon 町田で活動するフリーランス美容師、村上 優香の予約・相談ページ。頭皮と髪にやさしいボタニカルヘナカラーやヘッドスパで、今も、その先も好きでいられる髪を。ご相談は公式LINEから。">
 <!-- OGP：公開URLが決まったら og:url と og:image を絶対URLに置き換えてください -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="村上 優香｜町田のフリーランス美容師・ヘナ・ヘッドスパ">
@@ -159,7 +159,7 @@
     .care-photos .p2{aspect-ratio:4/5}
   }
 
-  /* ---------- オーガニックヘナ：独立セクション ---------- */
+  /* ---------- ボタニカルヘナカラー：独立セクション ---------- */
   .henna{background:var(--charcoal);color:#EDE8DE;padding:var(--sec) 0}
   .henna .wrap{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,5fr);gap:clamp(32px,6vw,80px);align-items:start}
   .henna .en{color:#B7AFA2}
@@ -216,14 +216,17 @@
   details.mg summary .ico::after{width:1.5px;height:14px}
   details.mg[open] summary .ico::after{transform:translate(-50%,-50%) rotate(90deg)}
   .mg-body{padding:0 4px 18px}
-  .mg-body li{display:flex;align-items:baseline;gap:10px;padding:10px 0;font-size:14.5px}
+  .mg-body li{padding:14px 0;font-size:14.5px}
+  .mg-body .row{display:flex;align-items:baseline;gap:10px}
   .mg-body .n{flex:1 1 auto;min-width:0;line-height:1.7;overflow-wrap:anywhere}
   .mg-body .n small{display:block;font-size:12px;color:var(--text-soft)}
   .mg-body .leader{flex:1 0 24px;border-bottom:1px dotted var(--wgray);transform:translateY(-6px);min-width:24px}
   .mg-body .p{flex:none;white-space:nowrap;font-family:var(--serif);font-size:16px;letter-spacing:.03em;color:var(--charcoal);font-variant-numeric:tabular-nums}
+  .mg-body .desc{margin-top:6px;font-size:13px;color:var(--text-soft);line-height:1.8}
   .mg-body .note{font-size:12.5px;color:var(--text-soft);padding-top:4px}
+  .menu-note{display:inline-block;margin-top:14px;padding:9px 16px;border-radius:999px;background:rgba(95,103,79,.1);color:var(--olive);font-size:12.5px;line-height:1.7}
   .menu-foot{margin-top:22px;font-size:13.5px;color:var(--text-soft)}
-  @media (max-width:520px){.mg-body li{flex-wrap:wrap}.mg-body .n{flex-basis:100%}.mg-body .leader{display:none}.mg-body .p{margin-left:auto}}
+  @media (max-width:520px){.mg-body .row{flex-wrap:wrap}.mg-body .n{flex-basis:100%}.mg-body .leader{display:none}.mg-body .p{margin-left:auto}}
 
   /* ---------- アクセス ---------- */
   .access{padding:var(--sec) 0}
@@ -231,6 +234,10 @@
   .access .place p{font-size:15px}
   .access .place p+p{margin-top:1.2em}
   .access .place .sup{color:var(--text-soft);font-size:14.5px}
+  .salon-gallery{margin-top:24px;display:flex;gap:14px;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity;padding-bottom:6px;margin-left:calc(-1*var(--gutter));margin-right:calc(-1*var(--gutter));padding-left:var(--gutter);padding-right:var(--gutter)}
+  .salon-gallery img{flex:0 0 auto;width:220px;aspect-ratio:6/5;object-fit:cover;scroll-snap-align:start}
+  .salon-gallery::-webkit-scrollbar{height:6px}
+  .salon-gallery::-webkit-scrollbar-thumb{background:var(--line);border-radius:999px}
   .access .info{border-top:1px solid var(--line);padding-top:24px}
   .access .salon{font-family:var(--serif);font-size:clamp(19px,2.3vw,23px);letter-spacing:.06em;color:var(--charcoal)}
   .access address{font-style:normal;margin-top:12px;line-height:2}
@@ -285,7 +292,7 @@
     <nav class="nav" id="nav" aria-label="ページ内メニュー">
       <ul>
         <li><a href="#concept">コンセプト</a></li>
-        <li><a href="#henna">オーガニックヘナ</a></li>
+        <li><a href="#henna">ボタニカルヘナカラー</a></li>
         <li><a href="#coupon">新規限定クーポン</a></li>
         <li><a href="#menu">メニュー・料金</a></li>
         <li><a href="#access">アクセス</a></li>
@@ -361,8 +368,8 @@
         <article class="care-item">
           <span class="num">02</span>
           <div>
-            <h3>髪と頭皮を考えたオーガニック・ヘナの施術</h3>
-            <p>オーガニック商材を使った施術と、厳選したオーガニックヘナ。髪と頭皮の状態、ご希望の色味に合わせて負担の少ない方法を選びます。</p>
+            <h3>髪と頭皮を考えたボタニカルヘナカラーの施術</h3>
+            <p>オーガニック商材を使った施術と、厳選したボタニカルヘナカラー。髪と頭皮の状態、ご希望の色味に合わせて負担の少ない方法を選びます。</p>
           </div>
         </article>
         <article class="care-item">
@@ -389,19 +396,19 @@
   </div>
 </section>
 
-<!-- ===== オーガニックヘナ ===== -->
+<!-- ===== ボタニカルヘナカラー ===== -->
 <section class="henna" id="henna">
   <div class="wrap">
     <div class="text reveal">
-      <span class="en">Organic Henna</span>
-      <h2>オーガニックヘナ</h2>
-      <p>厳選したオーガニックヘナを使い、髪と頭皮の状態やご希望の色味に合わせて染めます。白髪や色味が気になりはじめた方、髪や頭皮への負担を抑えた染め方に関心のある方に。</p>
+      <span class="en">Botanical Henna Color</span>
+      <h2>ボタニカルヘナカラー</h2>
+      <p>厳選したボタニカルヘナカラーを使い、髪と頭皮の状態やご希望の色味に合わせて染めます。白髪や色味が気になりはじめた方、髪や頭皮への負担を抑えた染め方に関心のある方に。</p>
       <p>ヘナが初めての方には、仕上がりの色味や注意点をカウンセリングでご説明します。</p>
     </div>
     <div class="reveal">
       <ul class="menus">
-        <li><span class="n">カット＋オーガニックヘナ〈1度染め〉</span><span class="p">￥12,650</span></li>
-        <li><span class="n">カット＋オーガニックヘナ〈2度染め〉</span><span class="p">￥17,050</span></li>
+        <li><span class="n">カット＋ボタニカルヘナカラー〈1度染め〉</span><span class="p">￥12,650</span></li>
+        <li><span class="n">カット＋ボタニカルヘナカラー〈2度染め〉</span><span class="p">￥17,050</span></li>
       </ul>
       <a class="btn btn-line" href="https://lin.ee/tfrHAgk4" target="_blank" rel="noopener"><span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#fff"><path d="M12 3C6.5 3 2 6.6 2 11c0 3.9 3.5 7.2 8.2 7.9.3.1.8.2.9.5.1.3.1.7 0 1l-.1.9c0 .3-.2 1 .9.6 1.1-.5 5.9-3.5 8-5.9 1.5-1.6 2.1-3.2 2.1-5C22 6.6 17.5 3 12 3z"/></svg></span>ヘナについてLINEで相談する</a>
       <p class="note">1度染め・2度染めの違いや、ご自身の髪に合うかどうかもお気軽にどうぞ。</p>
@@ -420,17 +427,17 @@
     <div class="coupon-grid reveal">
       <article class="coupon-card">
         <span class="badge">15%OFF</span>
-        <h3>カット＋アロマスパ15min＋TOKIOトリートメント</h3>
+        <h3>カット＋頭皮リセットアロマヘッドスパ15min＋艶髪再生クイックケア</h3>
         <p class="price"><span class="was">￥9,350～</span><span class="now">￥7,900～</span></p>
       </article>
       <article class="coupon-card">
         <span class="badge">15%OFF</span>
-        <h3>カット＋水素カラー＋アロマスパ15min</h3>
+        <h3>カット＋水素カラー＋頭皮リセットアロマヘッドスパ15min</h3>
         <p class="price"><span class="was">￥16,500</span><span class="now">￥14,000</span></p>
       </article>
       <article class="coupon-card">
         <span class="badge">15%OFF</span>
-        <h3>カット＋オーガニックヘナ〈1度染め〉</h3>
+        <h3>カット＋ボタニカルヘナカラー〈1度染め〉</h3>
         <p class="price"><span class="was">￥12,650</span><span class="now">￥10,750</span></p>
       </article>
     </div>
@@ -468,75 +475,157 @@
       <span class="en">Menu &amp; Price</span>
       <h2>メニュー・料金</h2>
       <p class="lead">カテゴリーを押すと、メニューが開きます。</p>
+      <p class="menu-note">✳ 当店は全メニューに薬剤除去ケア〈除去率98%〉を標準搭載。髪と頭皮にやさしい施術を行っています。</p>
     </div>
     <div class="menu-groups reveal">
       <details class="mg" open>
-        <summary>カット・ケア<span class="ico" aria-hidden="true"></span></summary>
+        <summary>カット<span class="ico" aria-hidden="true"></span></summary>
         <ul class="mg-body">
-          <li><span class="n">カット</span><span class="leader"></span><span class="p">￥5,500</span></li>
-          <li><span class="n">カット＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥8,250～</span></li>
-          <li><span class="n">カット＋アロマスパ15min＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥9,350～</span></li>
-          <li><span class="n">カット＋髪質改善水素トリートメント×TOKIOトリートメント〈炭酸スパ5min〉</span><span class="leader"></span><span class="p">￥15,950</span></li>
+          <li>
+            <div class="row"><span class="n">カット</span><span class="leader"></span><span class="p">￥5,500</span></div>
+            <p class="desc">一人ひとりの骨格・髪質に合わせてカット。ブロー込みで、ご自宅でも再現しやすいスタイルに仕上げます。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋艶髪再生ベーシックケア</span><span class="leader"></span><span class="p">￥8,250～</span></div>
+            <p class="desc">髪の内部までケラチンを届け、パサつき・ハリコシ不足を根本からケア。艶とまとまりが長く続きます。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋頭皮リセットアロマヘッドスパ15min＋艶髪再生クイックケア</span><span class="leader"></span><span class="p">￥9,350～</span></div>
+            <p class="desc">アロマの香りで頭皮をほぐしながら、艶髪再生ケアで内部からもケア。頭皮も髪も同時にリセットします。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋髪質改善水素トリートメント×艶髪再生ケア</span><span class="leader"></span><span class="p">￥15,950</span></div>
+            <p class="desc">炭酸スパ5min付き。水素の力で毛髪と頭皮の水分量をアップ。炭酸スパで頭皮の汚れもオフし、艶とまとまりを高いレベルで両立します。</p>
+          </li>
         </ul>
       </details>
       <details class="mg">
-        <summary>水素カラー<span class="ico" aria-hidden="true"></span></summary>
+        <summary>カラー<span class="ico" aria-hidden="true"></span></summary>
         <ul class="mg-body">
-          <li><span class="n">カット＋水素カラー</span><span class="leader"></span><span class="p">￥12,650</span></li>
-          <li><span class="n">カット＋水素カラー＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥14,300～</span></li>
-          <li><span class="n">カット＋水素カラー＋髪質改善トリートメント×TOKIOトリートメント〈炭酸スパ5min〉</span><span class="leader"></span><span class="p">￥22,050</span></li>
-          <li><span class="n">カット＋水素カラー＋アロマスパ15min</span><span class="leader"></span><span class="p">￥16,500</span></li>
-          <li><span class="n">カット＋水素カラー＋アロマスパ15min＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥19,850～</span></li>
+          <li>
+            <div class="row"><span class="n">カット＋水素カラー</span><span class="leader"></span><span class="p">￥12,650</span></div>
+            <p class="desc">92%自然由来のオーガニックカラー「ヴィラロドラ」を使用。アルカリ・刺激臭を抑えた処方で、頭皮にやさしく、色持ちよく発色します。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋水素カラー＋艶髪再生クイックケア</span><span class="leader"></span><span class="p">￥14,300～</span></div>
+            <p class="desc">オーガニックカラーの美しい発色と、艶髪再生ケアの補修効果を両方実感できるセットです。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋水素カラー＋髪質改善トリートメント×艶髪再生ケア</span><span class="leader"></span><span class="p">￥22,050</span></div>
+            <p class="desc">炭酸スパ5min付き。カラー・髪質改善・艶髪再生ケアを組み合わせた、いちばん贅沢なフルケアコースです。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋水素カラー＋頭皮リセットアロマヘッドスパ15min</span><span class="leader"></span><span class="p">￥16,500</span></div>
+            <p class="desc">ヴィラロドラのオーガニックカラーでやさしくカラーしながら、アロマヘッドスパで頭皮もすっきりリセットします。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋水素カラー＋頭皮リセットアロマヘッドスパ15min＋艶髪再生ケア</span><span class="leader"></span><span class="p">￥19,850～</span></div>
+            <p class="desc">オーガニックカラー・頭皮ケア・艶髪再生ケアを一度に叶える、髪も心も満たされるフルコースです。</p>
+          </li>
         </ul>
       </details>
       <details class="mg">
         <summary>デザインカラー<span class="ico" aria-hidden="true"></span></summary>
         <ul class="mg-body">
-          <li><span class="n">カット＋インナーカラー＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥17,600～</span></li>
-          <li><span class="n">カット＋ハイライト＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥18,700～</span></li>
-          <li><span class="n">カット＋ブリーチ＋TOKIOトリートメント<small>フルブリーチは＋￥2,750</small></span><span class="leader"></span><span class="p">￥18,700～</span></li>
+          <li>
+            <div class="row"><span class="n">カット＋インナーカラー＋艶髪再生クイックケア</span><span class="leader"></span><span class="p">￥17,600～</span></div>
+            <p class="desc">さりげないおしゃれ感を楽しめるインナーカラーに、艶髪再生ケアでダメージレスな仕上がりをプラス。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋ハイライト＋艶髪再生ベーシックケア</span><span class="leader"></span><span class="p">￥18,700～</span></div>
+            <p class="desc">立体感と抜け感を演出するハイライトを、艶髪再生ケアで美しいツヤとともに楽しめます。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋ブリーチ＋艶髪再生ベーシックケア</span><span class="leader"></span><span class="p">￥18,700～</span></div>
+            <p class="desc">フルブリーチは＋￥2,750。艶髪再生ケアでダメージをしっかりケアしながら施術します。</p>
+          </li>
         </ul>
       </details>
       <details class="mg">
-        <summary>オーガニックヘナ<span class="ico" aria-hidden="true"></span></summary>
+        <summary>ボタニカルヘナカラー<span class="ico" aria-hidden="true"></span></summary>
         <ul class="mg-body">
-          <li><span class="n">カット＋オーガニックヘナ〈1度染め〉</span><span class="leader"></span><span class="p">￥12,650</span></li>
-          <li><span class="n">カット＋オーガニックヘナ〈2度染め〉</span><span class="leader"></span><span class="p">￥17,050</span></li>
+          <li>
+            <div class="row"><span class="n">カット＋ボタニカルヘナカラー〈1度染め〉</span><span class="leader"></span><span class="p">￥12,650</span></div>
+            <p class="desc">高品質なヘナを厳選使用。染料成分がしっかり含まれているので、ムラなく美しく、時間も短縮できます。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋ボタニカルヘナカラー〈2度染め〉</span><span class="leader"></span><span class="p">￥17,050</span></div>
+            <p class="desc">高品質なヘナやナンバン藍を厳選使用。重ね染めでより深みのある色合いに、白髪もしっかりカバーします。</p>
+          </li>
         </ul>
       </details>
       <details class="mg">
         <summary>パーマ<span class="ico" aria-hidden="true"></span></summary>
         <ul class="mg-body">
-          <li><span class="n">カット＋パーマ</span><span class="leader"></span><span class="p">￥11,000</span></li>
-          <li><span class="n">カット＋パーマ＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥13,200～</span></li>
-          <li><span class="n">カット＋水素カラー＋パーマ＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥20,200～</span></li>
-          <li><span class="n">カット＋デジタルパーマ＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥14,400～</span></li>
-          <li><span class="n">カット＋水素カラー＋デジタルパーマ＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥21,400～</span></li>
+          <li>
+            <div class="row"><span class="n">カット＋パーマ</span><span class="leader"></span><span class="p">￥11,000</span></div>
+            <p class="desc">スタイリングしやすい動きのある髪へ。特殊パーマは施術不可。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋パーマ＋艶髪再生クイックケア</span><span class="leader"></span><span class="p">￥13,200～</span></div>
+            <p class="desc">パーマで動きをつけながら、髪の内部補修もしていきます。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋水素カラー＋パーマ＋艶髪再生ケア</span><span class="leader"></span><span class="p">￥20,200～</span></div>
+            <p class="desc">ダメージを抑えながら施術をするフルプラン。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋デジタルパーマ＋艶髪再生ケア</span><span class="leader"></span><span class="p">￥14,400～</span></div>
+            <p class="desc">パーマがかかりにくい方、取れやすい方にオススメ。艶髪再生ケアでダメージを最小限に。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋水素カラー＋デジタルパーマ＋艶髪再生ベーシックケア</span><span class="leader"></span><span class="p">￥21,400～</span></div>
+            <p class="desc">カラーとデジタルパーマ、艶髪再生ケアを一度に叶える贅沢な仕上がりです。</p>
+          </li>
         </ul>
       </details>
       <details class="mg">
-        <summary>縮毛矯正<span class="ico" aria-hidden="true"></span></summary>
+        <summary>艶髪ストレート矯正<span class="ico" aria-hidden="true"></span></summary>
         <ul class="mg-body">
-          <li><span class="n">カット＋縮毛矯正＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥16,500～</span></li>
-          <li><span class="n">カット＋水素カラー＋縮毛矯正＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥21,000～</span></li>
-          <li><span class="n">カット＋前髪縮毛矯正＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥11,550～</span></li>
-          <li><span class="n">カット＋カラー＋前髪縮毛矯正＋TOKIOトリートメント</span><span class="leader"></span><span class="p">￥16,050</span></li>
+          <li>
+            <div class="row"><span class="n">カット＋艶髪ストレート矯正＋艶髪再生ベーシックケア</span><span class="leader"></span><span class="p">￥16,500～</span></div>
+            <p class="desc">うねり・広がりを抑えながら、自然な艶とまとまりを実現。乾かすだけで決まる縮毛矯正です。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋水素カラー＋艶髪ストレート矯正＋艶髪再生ベーシックケア</span><span class="leader"></span><span class="p">￥21,000～</span></div>
+            <p class="desc">カラーとストレート矯正を同時に叶えながら、艶髪再生ケアでダメージレスな仕上がりに。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋前髪艶髪ストレート矯正＋艶髪再生クイックケア</span><span class="leader"></span><span class="p">￥11,550～</span></div>
+            <p class="desc">気になる前髪のクセだけをピンポイントでケア。忙しい朝も自然な仕上がりをキープできます。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">カット＋カラー＋前髪艶髪ストレート矯正＋艶髪再生クイックケア</span><span class="leader"></span><span class="p">￥16,050</span></div>
+            <p class="desc">カラーと前髪のクセ改善を一度に。艶髪再生ケアで内部から補修し、自然な艶とまとまりのある仕上がりに。</p>
+          </li>
         </ul>
       </details>
       <details class="mg">
-        <summary>ヘアセット<span class="ico" aria-hidden="true"></span></summary>
+        <summary>セット・オプション<span class="ico" aria-hidden="true"></span></summary>
         <ul class="mg-body">
-          <li><span class="n">ヘアセット〈金箔付き〉</span><span class="leader"></span><span class="p">￥5,500</span></li>
-        </ul>
-      </details>
-      <details class="mg">
-        <summary>オプション<span class="ico" aria-hidden="true"></span></summary>
-        <ul class="mg-body">
-          <li><span class="n">アロマスパ15min</span><span class="leader"></span><span class="p">￥3,850</span></li>
-          <li><span class="n">アロマスパ30min</span><span class="leader"></span><span class="p">￥4,950</span></li>
-          <li><span class="n">眉カット</span><span class="leader"></span><span class="p">￥1,100</span></li>
-          <li><span class="n">前髪カット<small>他のメニューとセットで￥1,100</small></span><span class="leader"></span><span class="p">￥2,200</span></li>
-          <li><span class="n">シャンプーブロー</span><span class="leader"></span><span class="p">￥3,630</span></li>
+          <li>
+            <div class="row"><span class="n">ヘアセット</span><span class="leader"></span><span class="p">￥5,500</span></div>
+            <p class="desc">金箔付きです。ヘアアクセサリーが必要な場合はご持参下さい。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">頭皮リセットアロマヘッドスパ15min</span><span class="leader"></span><span class="p">￥3,850</span></div>
+            <p class="desc">香りに癒されながら、凝り固まった頭皮をほぐしてリセット。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">頭皮リセットアロマヘッドスパ30min</span><span class="leader"></span><span class="p">￥4,950</span></div>
+            <p class="desc">ネック・ショルダーマッサージ付き。たっぷりの時間でじっくり頭皮をほぐし、深いリラックスと血行促進を実感できます。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">眉カット</span><span class="leader"></span><span class="p">￥1,100</span></div>
+            <p class="desc">顔まわりの印象を整える眉カットです。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">前髪カット</span><span class="leader"></span><span class="p">￥2,200</span></div>
+            <p class="desc">前髪とお顔周りのみのカットです。他メニューとセットの場合は￥1,100。</p>
+          </li>
+          <li>
+            <div class="row"><span class="n">シャンプーブロー</span><span class="leader"></span><span class="p">￥3,630</span></div>
+          </li>
         </ul>
       </details>
     </div>
@@ -552,8 +641,14 @@
         <span class="en">Salon</span>
         <h2>施術場所について</h2>
       </div>
-      <p>村上 優香は、Gotoday SHAiRE Salon 町田を拠点に、フリーランス美容師として活動しています。こちらのサロンで、髪と頭皮のケアやヘアスタイルをご相談いただけます。村上へのご相談・ご予約は、このページの公式LINEまたは予約アプリからお願いいたします。</p>
+      <p>Gotoday SHAiRE Salon 町田を拠点に、フリーランス美容師として活動しています。半個室、フルフラットのシャンプー台を備えたこちらのサロンで、髪と頭皮のケアやヘアスタイルをご相談いただけます。ご相談・ご予約は、このページの公式LINEまたは予約アプリからお願いいたします。</p>
       <p class="sup">GO TODAY シェアサロンは、フリーランス美容師が席を借りて営業するシェアサロンです。町田店は町田駅近くのガラス張りのビルにあり、窓が多く明るい店内が特徴です。</p>
+      <div class="salon-gallery">
+        <img src="images/salon-desk.jpg" width="1200" height="1007" alt="Gotoday SHAiRE Salon 町田の受付" loading="lazy">
+        <img src="images/salon-corridor.jpg" width="1200" height="890" alt="半個室になった施術スペースが並ぶ店内の通路" loading="lazy">
+        <img src="images/salon-window.jpg" width="1200" height="1002" alt="窓沿いの明るいセット面" loading="lazy">
+        <img src="images/salon-shampoo.jpg" width="1200" height="1010" alt="フルフラットになるシャンプー台" loading="lazy">
+      </div>
     </div>
     <div class="info reveal">
       <span class="en">Access</span>
